@@ -3,8 +3,10 @@
         <profile>
             <id>artifactory-plugin-properties</id>
             <properties>
-                <username>admin</username>
-                <password>password</password>
+                <username>${env.artifactory_user}</username>
+                <password>${env.artifactory_apikey}</password>
+                <contextUrl>${env.artifactory_url}</contextUrl>
+                <buildnumber>${env.run_number}</buildnumber>
             </properties>
         </profile>
     </profiles>
