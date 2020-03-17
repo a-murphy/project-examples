@@ -1,0 +1,5 @@
+version: 1
+type: maven
+deployer:
+  snapshotRepo: maven-test
+  serverID: artifactory
