@@ -2,4 +2,4 @@ version: 1
 type: maven
 deployer:
   snapshotRepo: maven-test
-  serverID: aidan_demoartifactory
+  serverID: aidan_artifactory
